@@ -1,0 +1,21 @@
+[rhel-vault-base]
+name=Red Hat Enterprise Linux 6 - Source
+baseurl=https://vault.redhat.com/6.10/os/x86_64/
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+
+[rhel-vault-update]
+name=Red Hat Enterprise Linux 6 - Source
+baseurl=https://vault.redhat.com/6.10/updates/x86_64/
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+
+
+[rhel-vault-supp]
+name=Red Hat Enterprise Linux 6 - Source
+baseurl=https://vault.redhat.com/6.10/supplementary/x86_64/
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
