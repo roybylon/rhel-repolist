@@ -3,4 +3,4 @@ name=Extra Packages for Enterprise Linux 6 - $basearch
 baseurl=https://download.fedoraproject.org/pub/epel/6/$basearch/
 enabled=1
 gpgcheck=1
-gpgkey=https://dl.fedoraproject.org/pub/epel/RPM-GPG-KEY-EPEL-6
+gpgkey=https://dl.fedoraproject.org/pub/epel/RPM-GPG-KEY-redhat-release
