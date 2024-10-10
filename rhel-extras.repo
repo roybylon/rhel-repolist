@@ -1,0 +1,69 @@
+[rhel6-base]
+name=Red Hat Enterprise Linux 6 - Base
+baseurl=https://cdn.redhat.com/content/dist/rhel/server/6/$releasever/$basearch/os/
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+
+[rhel6-updates]
+name=Red Hat Enterprise Linux 6 - Updates
+baseurl=https://cdn.redhat.com/content/dist/rhel/server/6/6.10/x86_64/updates/
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+
+[rhel-source]
+name=Red Hat Enterprise Linux 6 - Source
+baseurl=https://ftp.redhat.com/pub/redhat/linux/enterprise/6Server/en/os/SRPMS/
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+
+[rhel-6-server-optional-rpms]
+name=Red Hat Enterprise Linux 6 Server Optional (RPMs)
+baseurl=https://cdn.redhat.com/content/dist/rhel/server/6/$releasever/$basearch/optional/os
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+
+[rhel-6-server-ha-rpms]
+name=Red Hat Enterprise Linux 6 Server High Availability (RPMs)
+baseurl=https://cdn.redhat.com/content/dist/rhel/server/6/$releasever/$basearch/highavailability/os
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+
+[rhel-6-server-extras-rpms]
+name=Red Hat Enterprise Linux 6 Server Extras (RPMs)
+baseurl=https://cdn.redhat.com/content/dist/rhel/server/6/$releasever/$basearch/extras/os
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+
+[rhel-6-extras]
+name=Red Hat Enterprise Linux 6 Extras
+baseurl=http://download.redhat.com/pub/redhat/linux/enterprise/6Server/en/extras/$basearch/
+enabled=1
+gpgcheck=1
+gpgkey=https://www.redhat.com/security/data/fingerprints/RPM-GPG-KEY
+
+[rhel-6-server-supplementary-rpms]
+name=Red Hat Enterprise Linux 6 Server Supplementary (RPMs)
+baseurl=https://cdn.redhat.com/content/dist/rhel/server/6/$releasever/$basearch/supplementary/os
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+
+[rhel-6-server-sfs-rpms]
+name=Red Hat Enterprise Linux 6 Server Scalable File System (RPMs)
+baseurl=https://cdn.redhat.com/content/dist/rhel/server/6/$releasever/$basearch/sfs/os
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+
+[rhel-6-server-lb-rpms]
+name=Red Hat Enterprise Linux 6 Server Load Balancer (RPMs)
+baseurl=https://cdn.redhat.com/content/dist/rhel/server/6/$releasever/$basearch/loadbalancer/os
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
